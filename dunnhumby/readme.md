@@ -5,7 +5,7 @@ Scripts used to create and import, transform, and load the final data model for 
 
 ### data
 Two folders:
-<LI>
-  <UL>Raw: Used to store the raw csv downloded files</UL>
-  <UL>Modeled: Data used transformed for various ML/AI modeling</UL>
-</LI>
+<UL>
+  <LI>Raw: Used to store the raw csv downloded files</LI>
+  <LI>Modeled: Data used transformed for various ML/AI modeling</LI>
+</UL>
