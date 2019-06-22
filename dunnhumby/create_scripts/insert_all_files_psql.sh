@@ -3,7 +3,7 @@ start=`date +%s`
 
 
 # Get list of all files in data/raw
-FILES=data/raw/transactions_*.csv
+FILES=../data/raw/transactions_*.csv
 
 #C reate import table and enumerations
 psql -U postgres -d postgres -a -p 5433 -f create_scripts/dunnhumby_raw_import.sql
